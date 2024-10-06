@@ -20,5 +20,6 @@ export enum projectStatus {
 export enum taskStatus {
   CREATED = 'Created',
   INPROGRESS = 'InProgress',
+  DELETED = 'Deleted',
   COMPLETED = 'Completed',
 }
