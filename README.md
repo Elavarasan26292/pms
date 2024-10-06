@@ -40,7 +40,7 @@ Application Flow
 3.Pass access token to subsequest api requests
 
 
-Use data samples from folder db_samples to have local data(collections - projects,tasks,users)
+Use data samples from folder db_samples to have local data(DBname - pmsdb, collections - projects,tasks,users)
 
 
 Application Architecture
