@@ -5,21 +5,20 @@ import { modelProviders } from './models';
 import { ProjectsDbService } from './projects/projects.service';
 import { TasksDbService } from './tasks/tasks.service';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import config from '../config/config';
 
 @Module({
   imports: [
     ConfigModule.forRoot({
-      load: [config],
       isGlobal: true,
+      envFilePath: '.env',
     }),
     MongooseModule.forRootAsync({
       imports: [ConfigModule],
       inject: [ConfigService],
       useFactory: async (configService: ConfigService) => ({
         uri:
-          configService.get<string>('mongodb.uri') +
-          configService.get<string>('mongodb.dbName'), // Access the MongoDB URI from .env
+          configService.get<string>('URI') +
+          configService.get<string>('DBNAME'),
       }),
       // async () => ({
       //   uri: 'mongodb://localhost:27017',
