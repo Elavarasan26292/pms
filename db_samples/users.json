@@ -1,0 +1,36 @@
+
+[{
+	"_id" : ObjectId("670269d4e0b012123a47e2b8"),
+	"userName" : "BenTennison",
+	"email" : "manager@gmail.com",
+	"password" : "$2b$10$iYbFYnxD8anlKcKa1yPZcu4/S1dwC/YI/ThReRmmzhwZkvT6Yg0E.",
+	"phone" : "+918899887766",
+	"status" : "Active",
+	"role" : "Unknown",
+	"tasks" : [ ],
+	"__v" : 0
+},
+
+{
+	"_id" : ObjectId("670269c4e0b012123a47e2b5"),
+	"userName" : "JamesPet",
+	"email" : "productHead@gmail.com",
+	"password" : "$2b$10$ypu8L/aZrYvgmUe9yjWS6ODbeJ9An7Xkn2CQ05iK/jtD1.vem0Fnq",
+	"phone" : "+918899887766",
+	"status" : "Active",
+	"role" : "Unknown",
+	"tasks" : [ ],
+	"__v" : 0
+},
+
+{
+	"_id" : ObjectId("670230121a966374c2f05407"),
+	"userName" : "James Peterson",
+	"email" : "max@gmail.com",
+	"password" : "$2b$10$wkJJ5I6XVOXuW4sTexPAoeGkNK6INFaogmqx5FVhwj3Bj38SgLXTO",
+	"phone" : "+918899887766",
+	"status" : "Active",
+	"role" : "Unknown",
+	"tasks" : [ ],
+	"__v" : 0
+}]
